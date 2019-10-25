@@ -1,0 +1,7 @@
+sc create DemoService -DisplayName="Demo Service" -binPath="C:\Projects\github\DotNetCoreWindowsServiceDemo\Demo\Demo.WindowsService\bin\Debug\netcoreapp3.0\Demo.WindowsService.exe"
+
+sc create DemoService DisplayName="Demo Service" binPath="C:\Projects\publish\Demo.WindowsService.exe"
+sc.exe delete ExampleService
+
+New-Service -Name DemoService -BinaryPathName "C:\Projects\github\DotNetCoreWindowsServiceDemo\Demo\Demo.Windows
+Service\bin\Debug\netcoreapp3.0\Demo.WindowsService.exe" -Description "descrip sd" -DisplayName "Demo Service" -StartupType Automatic

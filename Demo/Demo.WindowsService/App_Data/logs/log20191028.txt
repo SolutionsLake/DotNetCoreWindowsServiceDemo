@@ -1,0 +1,5 @@
+2019-10-28 12:01:41 [INFO]<1> [Demo.WindowsService.Worker] Service Starting
+2019-10-28 12:01:41 [INFO]<1> [Demo.WindowsService.Worker] Binding Inbound Folder Events
+2019-10-28 12:01:41 [INFO]<1> [Demo.WindowsService.Worker] Binding Outbound Folder Events
+2019-10-28 12:02:00 [INFO]<4> [Demo.WindowsService.Worker] Stopping Service
+2019-10-28 12:02:00 [INFO]<4> [Demo.WindowsService.Worker] Disposing Service
