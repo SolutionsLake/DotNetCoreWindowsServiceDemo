@@ -9,9 +9,9 @@ namespace WindowsServiceDemo.App
     public class ServiceBaseLifeTime : ServiceBase, IHostLifetime
     {
         private readonly TaskCompletionSource<object> _delayStart;
-        private readonly IApplicationLifetime _applicationLifetime;
+        private readonly IHostApplicationLifetime _applicationLifetime;
 
-        public ServiceBaseLifeTime(IApplicationLifetime applicationLifetime)
+        public ServiceBaseLifeTime(IHostApplicationLifetime applicationLifetime)
         {
             _delayStart = new TaskCompletionSource<object>();
             _applicationLifetime = applicationLifetime;
